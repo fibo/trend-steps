@@ -1,0 +1,27 @@
+{
+  "name": "trend-steps",
+  "version": "0.0.0",
+  "description": "reduces math series to a square curve of its trend steps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fibo/trend-steps.git"
+  },
+  "keywords": [
+    "market",
+    "trend",
+    "math"
+  ],
+  "author": {
+    "name": "Gianluca Casati",
+    "url": "http://g14n.info"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fibo/trend-steps/issues"
+  },
+  "homepage": "http://g14n.info/trend-steps"
+}
