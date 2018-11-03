@@ -40,3 +40,12 @@ In this case output will be
   { value: 1.2, level: -1 }
 ]
 ```
+
+It accepts an *options* parameter, which defaults to `{ tolerance: 0.001 }`, where
+tolerance is the criteria used to compare floats to check if they are equal. For instance, to decrease tolerance, do
+
+
+```javascript
+const output = input.reduce(toTrendSteps({ tolerance: 0.0001 }), [])
+```
+
